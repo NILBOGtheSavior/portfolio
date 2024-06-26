@@ -1,0 +1,33 @@
+main {
+    h2 {
+        font-family: kenyan;
+        font-size: 2em;
+        text-transform: uppercase;
+        margin-block: 2em 1em;
+    }
+    section#logos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        div.artwork {
+            border: solid 2px black;
+            width: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            aspect-ratio: 1/1;
+            transition: 500ms;
+            text-align: center;
+            img {
+                height: 100%;
+                transition: 500ms;
+
+            }
+            img:hover {
+                scale: 105%;
+            }
+        }
+        div.artwork:hover {
+            box-shadow: -2px 2px black;
+        }
+    }
+}

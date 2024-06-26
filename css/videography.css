@@ -1,0 +1,23 @@
+main {
+    h2 {
+        font-family: kenyan;
+        font-size: 2em;
+        text-transform: uppercase;
+        margin-block: 2em 1em;
+    }
+    section#videos {
+        div.video {
+            width: 100%;
+            aspect-ratio: 16/9;
+            margin-block: 2em 1em;
+            h3 {
+                font-family: kenyan;
+                font-size: 1.5em;
+            }
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
